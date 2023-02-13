@@ -1,0 +1,19 @@
+{
+  "$schema": "https://hypar.io/Schemas/Function.json",
+  "id": "b728b3a9-9518-49b0-923d-15096a053adb",
+  "name": "JSON Inspector",
+  "description": "The JSONInspector function.",
+  "language": "C#",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "JSON": {
+        "type": "string",
+        "$hyparStyle": "multiline"
+      }
+    }
+  },
+  "repository_url": "https://github.com/hypar-io/function",
+  "last_updated": "0001-01-01T00:00:00",
+  "cli_version": "1.5.0-alpha.1"
+}
